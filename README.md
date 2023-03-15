@@ -9,5 +9,7 @@
 ## 5. Test that the application is running 
 ## 6. Destroy infrastructure
 test 1
+test 3
+
 
 
