@@ -28,5 +28,11 @@ pipeline {
                 }
             }
         }
+
+        stage('Terraform action') {
+            steps {
+                sh 'terraform ${action} --auto-approve'
+            }
+        }
     }
 }
